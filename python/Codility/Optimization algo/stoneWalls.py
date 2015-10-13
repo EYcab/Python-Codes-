@@ -10,6 +10,7 @@ def solution(H):
          
         if len(stack) != 0 and stack[-1] == height:
             # we already paid for this size
+            #Same height Blocks are gathered together and counted as "the same black"
             pass
         else:
             # new block is required, push it's size to the stack
